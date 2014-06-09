@@ -3757,7 +3757,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 html {
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid #909090;
   min-height: 100%;
 }
 
