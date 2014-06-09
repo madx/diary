@@ -3756,6 +3756,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   box-sizing: border-box;
 }
 
+html {
+  border-bottom: 5px solid black;
+  min-height: 100%;
+}
+
 html,
 body {
   font-family: 'IM Fell English', serif;
@@ -3763,6 +3768,8 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
+  /*background: #FAFAFA;*/
+  background: #FFF;
 }
 
 body.animated.fadeIn {
@@ -3796,6 +3803,7 @@ a {
   max-width: 45rem;
   padding: 1rem;
   margin: auto;
+  overflow: hidden;
 }
 
 /**
