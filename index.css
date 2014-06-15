@@ -3778,9 +3778,10 @@ body {
   min-height: 100%;
 }
 
-/*body.animated.fadeIn {
+.animated.fadeIn {
+  -webkit-animation-duration: 2s;
   animation-duration: 2s;
-}*/
+}
 
 a {
   /*color: #909090;*/
