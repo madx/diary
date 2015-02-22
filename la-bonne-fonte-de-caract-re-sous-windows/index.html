@@ -1,0 +1,52 @@
+<!DOCTYPE html><html class="kud-Status--post"><head><meta charset="utf-8"><title>_kud.diary</title><meta name="description" content="Diary of the _kud"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="shortcut icon" type="image/png" href="http://kud.io/favicon.png"><link href="http://fonts.googleapis.com/css?family=Montserrat|Lato" rel="stylesheet" type="text/css"><link rel="stylesheet" href="/index.css"></head><body><div class="kud-Wrapper"><div class="kud-Header "><a href="/" class="kud-Header-avatar"><img src="https://en.gravatar.com/userimage/10327718/3329a7e1b8bdd60fbe78c66e40bd4761.jpg?size=200"/></a><h1 class="kud-Header-heading">Diary of the _kud</h1></div><section class="kud-Post kud-BeautifyLink animated fadeIn"><img src="/images/fonte-de-caractere-windows/head.jpg" class="kud-Post-headingImage"><h2 class="kud-Post-heading">La bonne fonte de caractère sous Windows</h2><p class="kud-Post-date">Le <time>dimanche 22 février 2015.</time></p><div><p>Je ne sais pas si c’est votre cas mais j’ai l’habitude de passer de Mac OS X à Windows et vice-versa. Le problème, c’est que le rendu des fontes n’est pas du tout le même, et j’avoue qu’Apple a fait / fait un travail énorme sur ça. Du coup, quand je reviens sur Windows, c’est assez insupportable à lire. Pour cela, j’ai tenté de résoudre ce problème à coup de logiciels, de fontes “safe” et autres. Je suis finalement tombé sur un compromis qui me permet maintenant de lire les textes sans avoir un mal de crâne pas possible (rassurez-vous, ce n’est qu’une image).</p>
+<p>Pour ça, vous allez avoir besoin de deux choses :</p>
+<ul>
+<li>Un logiciel optimisant le rendu</li>
+<li>Une police agréable</li>
+</ul>
+<p>Je vous invite au passage à lire <a href="http://fr.wikipedia.org/wiki/Fonte_de_caract%C3%A8res">la différence entre police et fonte</a>.</p>
+<p>Commençons par le logiciel.</p>
+<h2 id="mactype">MacType</h2>
+<p><a href="https://code.google.com/p/mactype/">MacType</a> est un logiciel open-source qui n’est malheureusement plus vraiment maintenu mais qui à le mérite d’exister et de marcher.</p>
+<p>Ce logiciel va tout simplement prendre la main sur le rendu du texte sous Windows et utiliser son propre moteur de rendu.</p>
+<p>En somme, vous n’avez rien besoin de faire, il s’occupe de tout.</p>
+<p>Voici un test avec et sans :</p>
+<p><a href="/images/fonte-de-caractere-windows/mactype-off.jpg"><img src="/images/fonte-de-caractere-windows/mactype-off.jpg" alt=""></a></p>
+<p><em>Sans MacType.</em></p>
+<p><a href="/images/fonte-de-caractere-windows/mactype-on.jpg"><img src="/images/fonte-de-caractere-windows/mactype-on.jpg" alt=""></a></p>
+<p><em>Avec MacType.</em></p>
+<p><a href="/images/fonte-de-caractere-windows/mactype-off-vs-on.jpg"><img src="/images/fonte-de-caractere-windows/mactype-off-vs-on.jpg" alt=""></a></p>
+<p><em>Le battle.</em></p>
+<p>Il est possible que vous préfériez la version <em>sans</em> car plus “nette” surtout quand on n’a pas l’habitude d’être sur Mac mais je préfère clairement la version MacType bien plus douce, un peu plus grasse, et anticrénelée.</p>
+<p>Le profil choisi ici est <code>XMac\XMac.LCD.Default</code>. En fonction du profil, l’anticrénelage est plus moins accentué. De plus, vous pouvez créer votre propre profil pour être sûr(e) d’avoir le parfait rendu.</p>
+<p>J’aurais très bien pu utiliser <a href="http://www.microsoft.com/en-us/Typography/ClearTypeInfo.aspx">Microsoft ClearType</a> (chose que j’ai faite, d’ailleurs) mais le rendu est clairement inférieur à celui de <a href="https://code.google.com/p/mactype/">MacType</a>. Mais vraiment.</p>
+<p>En parlant de MacType, vous avez plusieurs façons de le lancer : soit en systray, soit via le registre, ou autre.</p>
+<p>La différence joue sur le fait qu’en systray, vous pouvez à tout moment l’activer ou non, choisir quelle application l’utilise ou non (oui, certaines apps n’aiment pas trop MacType mais elles sont rares). Alors que via le registre, cela ne peut se faire à chaud. Il faut en effet redémarrer l’application voire l’ordinateur. Un poil contraignant.</p>
+<p>Cependant, en utilisant la version registre, vous aurez le rendu d’emblée dès que vous lancez une application alors qu’en mode systray, vous avez un préchauffage de quelques secondes pour passer du rendu classique au rendu MacType, ce que je trouve assez désagréable. Vous avez même le cas où certaines applications ne sont gérées par MacType que quand vous passez la souris sur le texte ou que vous sélectionnez le texte. Je trouve cela pénible, d’où mode Registre.</p>
+<p>En somme, ce logiciel est devenu primordial pour moi.</p>
+<p>Passons à la police de caractère.</p>
+<h2 id="une-police-agr-able-pour-un-texte-agr-able">Une police agréable pour un texte agréable</h2>
+<p>Je passe beaucoup de temps à analyser quelle police me sied le plus étant donné que je suis développeur. Et en tant que développeur, je passe mon temps à écrire et lire du texte. Pour cela, il me faut forcément une police mono(space). Une police mono est une police dont les caractères sont tous la même largeur. Cela permet d’avoir un code bien droit, bien régulier, ce qui est très important.</p>
+<p>Ceci étant, nous parlons ici de polices classiques, de polices à lire régulièrement sans pour autant être développeur.</p>
+<p>J’ai découvert il y a peu (en cherchant justement une police pour développer) la police <a href="http://font.ubuntu.com/">Ubuntu</a>. L’avantage de celle-ci ? Elle est “safe” sur tous les OS (c’est à dire qu’elle rend correctement bien sur Mac OS X, Linux, BSD, Windows, etc). De plus, elle est libre et gratuite, ce qui n’est pas anondin dans le monde des polices. Et enfin, elle est autant disponible en mono, qu’en light, ou normale, ce qui la rend utilisable dans n’importe quel cas.</p>
+<p>Je vous propose alors d’aller dans les options de Windows pour l’appliquer sur votre OS.</p>
+<ul>
+<li>Clic droit sur le bureau</li>
+<li>“Personalize”</li>
+<li>“Window Color”</li>
+<li>“Advanced appearance settings”</li>
+<li>et là, mettez “ubuntu light” partout</li>
+</ul>
+<p>Je vous conseille d’ailleurs de mettre la taile de la fonte à <code>10</code> là où vous avez <code>9</code> par défaut. Cela aura un meilleur rendu. Et sur la “title bar”, laisse plutôt “Segoe UI” qui rend mieux.</p>
+<p>Avec ça, vous devriez avoir un bon rendu de fonte.</p>
+<p><a href="/images/fonte-de-caractere-windows/windows.jpg"><img src="/images/fonte-de-caractere-windows/windows.jpg" alt=""></a></p>
+<h2 id="tips">Tips</h2>
+<p>Si vous utilisez Firefox, il est possible que MacType ne fonctionne pas/plus. Pour résoudre ce problème, je vous propose de mettre <code>gfx.direct2d.disabled</code> à <code>true</code>. Le rendu MacType devrait revenir.</p>
+<p>Bonne lecture !</p>
+</div></section><div class="kud-Footer kud-BeautifyLink"><ul class="kud-Footer-list"><li class="kud-Footer-listItem"><a href="http://kud.io">La Maison</a></li><li class="kud-Footer-listItem"><a href="http://instagram.kud.io">Le Instagram</a></li><li class="kud-Footer-listItem"><a href="http://twitter.kud.io">Le Twitter</a></li></ul></div></div><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-25156890-8', 'auto');
+ga('send', 'pageview');</script></body></html>
