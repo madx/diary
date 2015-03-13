@@ -3872,14 +3872,14 @@ h6 {
 }
 
 .kud-Wrapper {
-  max-width: 864px;
-  max-width: 45rem;
+  max-width: 825px;
+  max-width: 43rem;
   padding: 19px;
   padding: 1rem;
+  padding-top: 220px;
   margin: auto;
   background: white;
   position: relative;
-  padding-top: 220px;
 }
 
 @media (max-width: 640px) {
@@ -3949,6 +3949,7 @@ h6 {
   margin: 38px 0;
   margin: 2rem 0;
   text-align: center;
+  border-top: 1px solid #EEE;
 }
 
   .kud-Footer-list {
@@ -4107,6 +4108,9 @@ html.kud-Status--post .kud-Header-heading {
 
   .kud-Post-date {
     font-style: italic;
+    color: #c5c3c7;
+    font-size: 18px;
+    font-size: .9375rem;
   }
 
   .kud-Post-content p:first-of-type::first-letter {
