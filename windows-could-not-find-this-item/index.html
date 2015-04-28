@@ -1,0 +1,25 @@
+<!DOCTYPE html><html class="kud-Status--post"><head><meta charset="utf-8"/><title>_kud.diary — Windows - Could not find this item</title><meta name="description" content="Diary of the _kud"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><link rel="shortcut icon" type="image/png" href="http://kud.io/favicon.png"/><link href="http://fonts.googleapis.com/css?family=Montserrat|Lato|Raleway:400,800,300" rel="stylesheet" type="text/css"/><link href="http://yandex.st/highlightjs/8.0/styles/default.min.css" rel="stylesheet" type="text/css"/><link rel="stylesheet" href="/index.css"/></head><body><div class="kud-Wrapper"><div class="kud-Header "><a href="/" class="kud-Header-avatar"><img src="https://en.gravatar.com/userimage/10327718/3329a7e1b8bdd60fbe78c66e40bd4761.jpg?size=200"/></a><h1 class="kud-Header-heading">Diary of the _kud</h1></div><section class="kud-Post kud-BeautifyLink animated fadeIn"><div class="kud-PostHeader"><img src="http://media.giphy.com/media/h9sHcXAnI9OBG/giphy.gif" class="kud-PostHeader-img"><div class="kud-PostHeader-overlay"><div class="kud-PostHeader-wrapper"><h2 class="kud-PostHeader-heading">Windows - Could not find this item</h2><time class="kud-PostHeader-date">lundi 27 avril 2015</time></div></div></div><div class="kud-Post-content"><p>You’re there, sitting on your chair, comfily and suddenly, you get this error.</p>
+<p><a href="/images/windows-could-not-find-this-item/bug.png"><img src="/images/windows-could-not-find-this-item/bug.png" alt=""></a></p>
+<p>At start, you don’t mind about it and you click on “try again”. And oh! It works!</p>
+<p>Okay, cool. But now you have this error every fucking time you want to create a folder, or rename it or delete it. Quite boring, isn’t it? Mostly that when you click on “try again”, it will work.</p>
+<p>So you’ll go on Internet, find some ~answers~ like this <a href="http://answers.microsoft.com/en-us/windows/forum/windows_7-files/renaming-any-folder-produces-could-not-find-this/d907e1d0-648b-4b26-a377-c5116238f336">one</a> or maybe people will tell you to create a new profile but it’s not your answer.</p>
+<p>So you go deeper in the internets and you’ll find mine. Maybe it’s the good one, maybe it’s not, but in my case, it worked.</p>
+<p>This bug comes from two facts:</p>
+<ul>
+<li>A certain windows update I installed (I don’t know which one)</li>
+<li>I disabled the “Libraries” feature</li>
+</ul>
+<p>The solution so?</p>
+<p>Re-active the libraries (and re-disable it if you want). Here are the two <code>.reg</code></p>
+<ul>
+<li><a href="/files/windows-could-not-find-this-item/EnableLibrariesFeature.reg">Enable Libraries Feature</a></li>
+<li><a href="/files/windows-could-not-find-this-item/DisableLibariesFeature.reg">Disable Libraries Feature</a></li>
+</ul>
+<p>Have a good day. :)</p>
+</div></section><div class="kud-Footer kud-BeautifyLink"><ul class="kud-Footer-list"><li class="kud-Footer-listItem"><a href="http://kud.io">La Maison</a></li><li class="kud-Footer-listItem"><a href="http://instagram.kud.io">Le Instagram</a></li><li class="kud-Footer-listItem"><a href="http://twitter.kud.io">Le Twitter</a></li></ul></div></div><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-25156890-8', 'auto');
+ga('send', 'pageview');</script></body></html>
